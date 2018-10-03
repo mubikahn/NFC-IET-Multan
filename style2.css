@@ -1,0 +1,58 @@
+body{
+	margin:0 auto;
+	padding:0 auto;
+}
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+.slideshow{
+	margin:0 auto;
+	padding:0 auto;
+	width:970px;
+	overflow:hidden;
+}
+.slides{
+	
+	position:relative;
+	width:3880px;
+	animation-name:Abdul;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+.slideshow .slides img{
+	width:970px;
+	height:400px;
+	float:left;
+	
+}
+@keyframes Abdul{
+	0%{
+		left:0px;
+		
+	}
+	20%{
+		left:0px;
+	}
+	25%{
+		left:-700px;
+	}
+	45%{
+		left:-700px;
+	}
+	50%{
+		left:-1400px;
+	}
+	70%{
+		left:-1400px;
+	}
+	75%{
+		left:-2100px;
+	}
+	95%{
+		left:-2100px;
+	}
+	100%{
+		left:-2800px;
+	}
+}
